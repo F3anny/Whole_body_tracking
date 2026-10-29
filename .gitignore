@@ -1,0 +1,29 @@
+# Local Python environments and generated code
+**/.venv/
+**/venv/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.idea/
+Thumbs.db
+.DS_Store
+
+# Personal enrollment images, biometric features, backups, and runtime logs
+Face recognition/data/
+Face recognition/db/
+Face recognition/logs/
+*.log
+!.env.example
+*.pem
+*.key
+
+# Keep the small body detector; download other models locally.
+Face recognition/models/*.onnx
+!Face recognition/models/yolox_nano.onnx
+Face recognition/models/*.task
+Face recognition/models/buffalo_l/
+*.tmp
+Face recognition/tests/fixtures/*.jpg
+config.bat
+node_modules
